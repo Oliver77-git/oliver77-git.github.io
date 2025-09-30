@@ -56,3 +56,13 @@ img {
 .tucne {
     font-weight: bold;
 }
+
+.stazeni {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    align-items: left;
+}
+
+ul {
+    padding: 0;
+}
