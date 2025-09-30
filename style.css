@@ -40,6 +40,10 @@ body {
 }
 
 #navbar ul li a:hover {
-    background-color: #93cb52;
+    background-color: #7d7d7d;
     border-radius: 5px;
+}
+
+img {
+    border-radius: 10px;
 }
