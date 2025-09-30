@@ -47,3 +47,12 @@ body {
 img {
     border-radius: 10px;
 }
+
+.bezpodtrzeni {
+  text-decoration: none;
+      
+}
+
+.tucne {
+    font-weight: bold;
+}
