@@ -42,7 +42,7 @@
 @media (max-width: 768px) {
   #navbar a.desktop { display: none; }
   #navbar a.mobile { display: inline-block; }
-  
+
 }body {
     background-color: rgb(146, 140, 140);
 }
@@ -105,7 +105,7 @@ img {
 .stazeni {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    align-items: left;
+    
 }
 
 ul {
@@ -169,3 +169,4 @@ body.about-page main {
     background-color: #ffffff; 
     color: #000000;
 }
+
