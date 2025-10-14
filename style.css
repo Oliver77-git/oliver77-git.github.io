@@ -112,15 +112,15 @@ nav ul li a:hover {
 
  /* Specifické styly pro About stránku */
 body.about-page {
-    background-color: #7d7d7d; /* např. světle modrá */
+    background-color: #7d7d7d; 
     color: #000000;
 }
 
 body.about-page h1 {
-    color: #ffffff; /* barva nadpisu */
+    color: #ffffff; 
 }
 
 body.about-page main {
-    background-color: #ffffff; /* např. světle modrá */
+    background-color: #ffffff; 
     color: #000000;
 }
