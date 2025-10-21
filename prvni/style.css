@@ -1,0 +1,219 @@
+     #normal,
+#tablet,
+#smartphone,
+#widescreen,
+#landscape {
+    display: none;
+}
+ 
+@media (min-width: 1200px) {
+    #widescreen {
+        display: block;
+    }
+}
+ 
+@media (min-width: 992px) and (max-width: 1199px) {
+    #normal {
+        display: block;
+    }
+}
+ 
+@media (min-width: 768px) and (max-width: 991px) {
+    #tablet {
+        display: block;
+    }
+}
+ 
+@media (max-width: 767px) {
+    #smartphone {
+        display: block;
+    }
+}
+ 
+@media (orientation: landscape) {
+    #landscape {
+        display: block;
+    }
+}
+ 
+#navbar a.desktop { display: inline; color: white; text-decoration: none; }
+#navbar a.mobile { display: none; font-size: 24px; }
+ 
+@media (max-width: 768px) {
+  #navbar a.desktop { display: none; }
+  #navbar a.mobile { display: inline-block; }
+
+}body {
+    background-color: rgb(146, 140, 140);
+}
+
+.container {
+    background-color: white;
+    max-width: 800px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35)
+                     0px 5px 15px;
+    margin: 0px auto;
+    padding: 5px 30px;
+}
+
+#navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 10px;
+    margin: 0 4px;
+}
+
+#navbar ul li a:hover {
+    background-color: #7d7d7d;
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.bezpodtrzeni {
+  text-decoration: none;
+      
+}
+
+.tucne {
+    font-weight: bold;
+}
+
+.stazeni {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+
+ul {
+    padding: 0;
+}
+
+/* Header a menu */
+header {
+    background-color: rgba(30,30,50,0.9);
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: #3fcbee;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 4px #000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 25px; /* větší mezery mezi odkazy */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #51bee9;
+    color: #1e1e2f;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(255,204,0,0.4);
+}
+
+ /* Specifické styly pro About stránku */
+body.about-page {
+    background-color: #7d7d7d; 
+    color: #000000;
+}
+
+body.about-page h1 {
+    color: #ffffff; 
+}
+
+body.about-page main {
+    background-color: #ffffff; 
+    color: #000000;
+}
+
+
+
+/* Nastavení celého těla stránky */
+body {
+  background-color: #8c8585; /* šedé pozadí okolo */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Horní šedé menu */
+.top-menu {
+  background-color: #333; /* tmavě šedá */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+/* Odkazy v menu */
+.top-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 25px;
+}
+
+.top-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.top-menu a:hover {
+  color: #ddd; /* světlejší při najetí */
+}
+
+/* Bílé menu / obsah uprostřed */
+.content-box {
+  background-color: white;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
